@@ -118,7 +118,7 @@
 }
 
 #hur .band{
-    background-image: url(../images/watch.png);
+    background-image: url(../images/gradient1.png) , url(../images/watch.png) ;
     background-repeat: no-repeat;
     background-size:cover;
     height: 300px;
@@ -126,16 +126,101 @@
     background-position: center;
     /* display:flex; */
     align-content: center;
+    padding-left: 64px;
 }
  
 .band h1 {
     
-    padding-left: 64px;
-    text-decoration: #333;
+    
+    color: #ffffff;
 }
 #hur{
     display: flex;
     justify-content: center;
+}
+
+.footer-container{
+    background-color: #333;
+    background-size: cover;
+    height: 577px;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+    padding-left: 232px;
+    padding-top: 50px;
+    margin-top: 130px;
+}
+.footer-container .social{
+    max-width: 562px;
+}
+.footer-container  .social h2{
+    font-size: 45px;
+    margin-bottom: 16px;
+    color:#ffffff;
+
+}
+
+.footer-container  .social p{
+    font-size:16px; 
+    margin-bottom: 24px;
+    line-height: 26px;
+    color:#ffffff;
+}
+.footer-container .icons a{
+  margin-right: 24px;
+}
+
+.footer-container .icons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+.footer-container .icons img{
+    display: block;
+    width: 36px;
+    height: 36px;
+    
+}
+
+
+.form{
+    color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding-top: 12px;
+}
+.form h2{
+    color: #ffffff;
+    margin: 0;
+    font-size: 24px;
+}
+.form .last{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0;
+    border-radius: 5px;
+}
+.form .last input[type="email"]{
+    width: 320px;
+    padding: 10px 12px;
+    background-color: black;
+    border-color: #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.form .click{
+    background-color: skyblue;
+    color: black;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    align-self: flex-start;
 }
 
 
